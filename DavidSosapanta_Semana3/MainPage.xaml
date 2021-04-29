@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DavidSosapanta_Semana3.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="Bisque" Padding="14" CornerRadius="0">
+            <Label Text=" TAREA SEMANA 2 PROMEDIO NOTAS" HorizontalTextAlignment="Center" TextColor="White" FontSize="26"/>
+        </Frame>
+
+        <Frame BackgroundColor="Aqua" Padding="14" CornerRadius="0">
+            <Label x:Name="txtusuario"/>
+
+        </Frame>
+
+        <Label Text="Primer Parcial">
+        </Label>
+        <Entry x:Name="txtNota1" Placeholder="Ingrese la Nota 1 sobre 10" Keyboard="Numeric">
+        </Entry>
+        <Entry x:Name="txtNota2" Placeholder="Ingrese la Nota del examen sobre 10" Keyboard="Numeric">
+        </Entry>
+
+        <Label Text="Segundo Parcial">
+
+        </Label>
+
+        <Entry x:Name="txtNota3" Placeholder="Ingrese la Nota 1 sobre 10" Keyboard="Numeric">
+        </Entry>
+        <Entry x:Name="txtNota4" Placeholder="Ingrese la Nota del examen sobre 10" Keyboard="Numeric">
+        </Entry>
+
+        <Label Text="Notas del primer Parcial">
+
+        </Label>
+        <Entry x:Name="txtNotaParcial1" Placeholder="Parcial 1" IsEnabled="False">
+        </Entry>
+        <Label Text="Notas del segundo Parcial">
+
+        </Label>
+        <Entry x:Name="txtNotaParcial2" Placeholder="Parcial 2" IsEnabled="False">
+        </Entry>
+        <Label Text="Nota FINAL ">
+
+        </Label>
+        <Entry x:Name="txtNotaFinal" Placeholder="Final" IsEnabled="False">
+        </Entry>
+        <Entry x:Name="txtEstado" Placeholder="estado" IsEnabled="False">
+        </Entry>
+
+        <Button x:Name="btncalcular" Text="Calcular" Clicked="btncalcular_Clicked"></Button>
+
+
+    </StackLayout>
+
+</ContentPage>

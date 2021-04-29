@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DavidSosapanta_Semana3.login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="5" CornerRadius="0">
+                <Label Text="Login" HorizontalTextAlignment="Center" FontSize="25"></Label>
+            </Frame>
+            <Entry x:Name="txtUsuario" Placeholder="Ingrese usuario" ></Entry>
+            <Entry x:Name="txtClave" Placeholder="Ingrese la clave" IsPassword="True"></Entry>
+            <Button x:Name="btnventana"
+                    Text="Ingresar"
+                    Clicked="btnventana_Clicked" ></Button>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
